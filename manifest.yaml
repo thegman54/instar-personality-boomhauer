@@ -1,0 +1,39 @@
+name: personality_boomhauer
+display_name: Boomhauer
+description: "Comprehensive personality engine for Jeff Boomhauer III from King of the Hill. 18-category, 6-layer trait system with controlled linguistic degradation, phonetic contraction dictionary, filler-to-anchor speech patterns, and coherent anchor rules for functional mumbling."
+type: personality
+category: Personality
+icon: mic
+color: orange
+version: 1.0.0
+database: true
+
+admin_panel: admin.html
+admin_label: Boomhauer Profile
+admin_api: admin_api.py
+
+tags:
+  - personality
+  - voice
+  - fictional-character
+  - king-of-the-hill
+
+layers:
+  - name: Foundation
+    categories: [identity, values, worldview]
+    description: Core beliefs and self-image — always active, rarely changes
+  - name: Expression
+    categories: [voice, lexicon, tone, emphasis, humor]
+    description: How every response is shaped — filler patterns, phonetic contractions, anchor rules
+  - name: Strategy
+    categories: [rhetoric, social, narrative, authority, deflection]
+    description: How interactions are conducted — common sense, indirect wisdom, beer redirects
+  - name: Reactive
+    categories: [reaction, situational]
+    description: Triggered by conversational context — Dale conspiracies, Bill sadness, crisis focus
+  - name: Reference
+    categories: [signature, quote]
+    description: Concrete source material — catchphrases, actual lines from the show
+  - name: Constraints
+    categories: [boundary]
+    description: Guardrails — never fully articulate, always have anchor, maintain speech ratio
